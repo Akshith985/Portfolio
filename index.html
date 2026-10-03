@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Akshith Anand — developer, community builder, and systems tinkerer.">
+  <title>AKSHITH — BUILDING THINGS THAT WORK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="brand-mark">A</span><span>AKSHITH</span></a>
+    <nav>
+      <a href="#work">WORK</a>
+      <a href="#stack">STACK</a>
+      <a href="#about">ABOUT</a>
+      <a href="#github">GITHUB</a><a href="#contact">CONTACT</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Change theme">T</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">DEVELOPER / BUILDER / COMMUNITY</p>
+        <h1>I BUILD<br><span>USEFUL THINGS.</span></h1>
+        <p class="lede">Software, communities, experiments, and infrastructure — built with curiosity and shipped with intent.</p>
+        <div class="actions">
+          <a class="button primary" href="#work">SEE THE WORK <span>↘</span></a>
+          <a class="button" href="#contact">GET IN TOUCH <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-terminal">
+        <div class="terminal-head"><span>~/akshith</span><span>● ● ●</span></div>
+        <pre><code><span class="muted">$</span> whoami
+<span class="accent">akshith</span>
+
+<span class="muted">$</span> cat current-focus.txt
+commerce intelligence
+developer communities
+linux & infrastructure
+web3 experiments
+
+<span class="muted">$</span> status
+<span class="ok">● shipping</span></code></pre>
+      </div>
+      <div class="scroll-note">SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <section class="marquee"><div>BUILD · BREAK · LEARN · SHIP · BUILD · BREAK · LEARN · SHIP · </div></section>
+
+    <section id="work" class="section">
+      <div class="section-label">01 / SELECTED WORK</div>
+      <div class="section-intro">
+        <h2>Things I've been<br>making lately.</h2>
+        <p>Three projects that represent the kind of systems I like building: autonomous infrastructure tooling, on-chain finance primitives, and software frameworks.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project featured">
+          <div class="project-art project-sre">
+            <svg viewBox="0 0 600 360" aria-hidden="true">
+              <rect x="52" y="52" width="496" height="256" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M52 94h496" stroke="currentColor" opacity=".35"/>
+              <text x="82" y="142" font-family="monospace" font-size="22" fill="currentColor">$ autonomous-sre</text>
+              <text x="82" y="181" font-family="monospace" font-size="17" fill="currentColor" opacity=".7">watch → analyze → remediate</text>
+              <circle cx="100" cy="230" r="12" fill="currentColor"/>
+              <path d="M120 230h112M250 230l18-18M250 230l18 18" stroke="currentColor" stroke-width="4"/>
+              <rect x="292" y="207" width="92" height="46" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M400 230h72" stroke="currentColor" stroke-width="4"/>
+              <path d="M462 220l10 10-10 10" fill="none" stroke="currentColor" stroke-width="4"/>
+            </svg>
+          </div>
+          <div class="project-meta"><span>01</span><span>AI / DEVSECOPS / SRE</span></div>
+          <h3>Autonomous SRE Agent</h3>
+          <p>A self-healing DevSecOps agent that watches code changes, uses Groq for root-cause analysis, sends observability data through LocalStack to Grafana, and generates remediation patches on Git branches.</p>
+          <a href="https://github.com/Akshith985/Autonomous-Agent" target="_blank" rel="noreferrer" class="arrow-link">VIEW ON GITHUB ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-art project-rwa">
+            <svg viewBox="0 0 600 360" aria-hidden="true">
+              <rect x="76" y="76" width="448" height="208" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M76 126h448" stroke="currentColor" opacity=".35"/>
+              <text x="104" y="111" font-family="monospace" font-size="14" fill="currentColor">INVOICE.OS / APTOS TESTNET</text>
+              <path d="M126 174h166v72H126z" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M152 194h112M152 218h78" stroke="currentColor" stroke-width="5"/>
+              <circle cx="390" cy="210" r="48" fill="none" stroke="currentColor" stroke-width="3"/>
+              <path d="M368 210l14 14 31-34" fill="none" stroke="currentColor" stroke-width="7"/>
+              <path d="M292 210h50" stroke="currentColor" stroke-width="2" stroke-dasharray="7 7"/>
+              <text x="300" y="267" font-family="monospace" font-size="13" fill="currentColor">RWA → ON-CHAIN OBJECT</text>
+            </svg>
+          </div>
+          <div class="project-meta"><span>02</span><span>WEB3 / MOVE / RWA</span></div>
+          <h3>Aptos Invoice RWA</h3>
+          <p>An open-source Aptos protocol that turns traditional invoices into deterministic, verifiable on-chain objects using the Aptos Object Model and Move.</p>
+          <a href="https://github.com/Akshith985/Aptos-RWA" target="_blank" rel="noreferrer" class="arrow-link">VIEW ON GITHUB ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-art project-java">
+            <svg viewBox="0 0 600 360" aria-hidden="true">
+              <rect x="64" y="58" width="472" height="244" rx="4" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M64 104h472" stroke="currentColor" opacity=".35"/>
+              <text x="94" y="145" font-family="monospace" font-size="18" fill="currentColor">MiniWeb.java</text>
+              <text x="94" y="183" font-family="monospace" font-size="16" fill="currentColor" opacity=".72">route → handler → middleware</text>
+              <path d="M100 224h104M226 224h104M352 224h120" stroke="currentColor" stroke-width="7"/>
+              <circle cx="216" cy="224" r="8" fill="currentColor"/>
+              <circle cx="342" cy="224" r="8" fill="currentColor"/>
+              <text x="94" y="267" font-family="monospace" font-size="14" fill="currentColor">JAVA 21 · MAVEN · POSTGRES</text>
+            </svg>
+          </div>
+          <div class="project-meta"><span>03</span><span>JAVA / FRAMEWORK / BACKEND</span></div>
+          <h3>Java Custom Framework — MiniWeb</h3>
+          <p>A custom Java web framework built from the ground up, with routing, request context, handlers, middleware, database support and a packaged Maven application.</p>
+          <a href="https://github.com/Akshith985/Java-Custom-Framework-MiniWeb" target="_blank" rel="noreferrer" class="arrow-link">VIEW ON GITHUB ↗</a>
+        </article>
+      </div>
+
+      <div id="github" class="github-activity">
+        <div class="github-head">
+          <div>
+            <div class="eyebrow">LIVE FROM GITHUB</div>
+            <h3>Commit activity.</h3>
+          </div>
+          <a href="https://github.com/Akshith985" target="_blank" rel="noreferrer" class="button">GITHUB ↗</a>
+        </div>
+        <div class="activity-stats">
+          <span><b id="commitCount">—</b> pushes found</span>
+          <span id="activityStatus">loading activity...</span>
+        </div>
+        <div id="commitGraph" class="commit-graph" aria-label="GitHub recent commit activity"></div>
+        <p class="graph-note">Live public activity from the GitHub Events API. GitHub's public Events API exposes recent public events and may have delivery latency. <a href="https://docs.github.com/en/rest/activity/events" target="_blank" rel="noreferrer">API docs ↗</a></p>
+      </div>
+    </section>
+
+    <section id="stack" class="section stack-section">
+      <div class="section-label">02 / THE TOOLBOX</div>
+      <div class="stack-layout">
+        <h2>My computer<br>is the workshop.</h2>
+        <div class="stack-list">
+          <div><b>LANGUAGES</b><span>Python · JavaScript · HTML · CSS · SQL</span></div>
+          <div><b>WEB</b><span>React · Node · APIs · Supabase</span></div>
+          <div><b>INFRA</b><span>Linux · Docker · PostgreSQL · Redis · Git</span></div>
+          <div><b>AI</b><span>Agents · browser automation · LLM APIs · RAG</span></div>
+          <div><b>OTHER</b><span>Ethereum · scraping · community building · game dev</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="section-label">03 / ABOUT</div>
+      <div class="about-layout">
+        <div>
+          <p class="big-copy">I like understanding how things work, then making them work better.</p>
+          <p>I'm Akshith — a developer and community builder based in India. I spend most of my time moving between code, infrastructure, experiments, and people.</p>
+          <p>Currently interested in agentic software, infrastructure, developer tooling, Web3 protocols, and framework design.</p>
+        </div>
+        <div class="manifesto">
+          <div><span>001</span> Ship before perfect.</div>
+          <div><span>002</span> Learn by taking things apart.</div>
+          <div><span>003</span> Make software feel human.</div>
+          <div><span>004</span> Build things worth showing.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="quote-mark">"</div>
+      <blockquote>THE BEST INTERFACE IS OFTEN THE ONE THAT GETS OUT OF THE WAY.</blockquote>
+      <cite>— A WORKING PRINCIPLE</cite>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-label">04 / CONTACT</div>
+      <div class="contact-layout">
+        <div>
+          <h2>Have a weird<br>idea?</h2>
+          <p>I'm always interested in interesting problems, collaborations, communities, and ambitious side quests.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:akshithclg@gmail.com"><span>EMAIL</span><b>akshithclg@gmail.com ↗</b></a>
+          <a href="https://github.com/Akshith985" target="_blank" rel="noreferrer"><span>GITHUB</span><b>github.com/Akshith985 ↗</b></a>
+          <a href="https://www.linkedin.com/in/akshith-anand-5a5988379/" target="_blank" rel="noreferrer"><span>LINKEDIN</span><b>linkedin.com/in/akshith-anand-5a5988379/ ↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 AKSHITH</span>
+    <span>BUILT WITH HTML / CSS / JS</span>
+    <span>NO FRAMEWORK REQUIRED</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
